@@ -1,0 +1,15 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Resources": {
+        "ExploreGitHubS3Bucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "AccessControl": "BucketOwnerFullControl",
+                "BucketName" : "alexa-explore-github-artifacts",
+                "VersioningConfiguration": {
+                  "Status": "Enabled"
+                }
+            }
+        }
+    }
+}
