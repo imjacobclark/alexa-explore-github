@@ -6,7 +6,7 @@ You'll need the AWS cli configured and ready to go and once your skill is runnin
 
 ### Create the stacks
 
-First, we create a stack for an S3 bucket to hold your lambda functions:
+First, we create a stack for an S3 bucket to hold the code for our lambda.
 
 ```shell
 $ aws cloudformation create-stack --stack-name alexa-explore-github-artifacts --template-body file://./cloudformation/artifacts.json
