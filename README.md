@@ -1,6 +1,6 @@
 # Explore GitHub
 
-[Explore GitHub with Alexa](https://github.com/imjacobclark/alexa-explore-github). 
+[Explore GitHub with Alexa](https://www.amazon.co.uk/dp/B073SJJ881/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1500148305&sr=1-1&keywords=Explore+Github). 
 
 You'll need the AWS cli configured and ready to go and once your skill is running - you'll need to link it to a skill in the Amazon Developer Console with the lambdas ARN.
 
